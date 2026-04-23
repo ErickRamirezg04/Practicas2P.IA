@@ -5,8 +5,7 @@
 
 # Cómo funciona:
 # Utiliza una función de evaluación compuesta:$$f(n) = g(n) + h(n)$$
-# g(n)$: El costo real acumulado 
-# desde el origen hasta el nodo actual.
+# g(n)$: El costo real acumulado desde el origen hasta el nodo actual.
 # h(n)$: El costo estimado (heurística) desde el nodo actual hasta la meta.
 # f(n)$: El costo total estimado del camino más barato que pasa por $n$.
 # Al elegir siempre el nodo con el valor $f(n)$ más bajo, A* evita explorar caminos costosos y se 
