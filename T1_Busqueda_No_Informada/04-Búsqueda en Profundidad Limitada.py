@@ -90,8 +90,8 @@ def gestor_de_expedicion(mapa, inicio, objetivo, rango_max):
 
 # --- PRUEBAS DE LA MISIÓN ---
 
-# Prueba A: Exploración superficial (El objetivo 'Q' está más profundo)
-gestor_de_expedicion(complejo_piramidal, 'A', 'Q', rango_max=3)
+# Prueba A: Exploración superficial Objetivo:L
+gestor_de_expedicion(complejo_piramidal, 'A', 'L', rango_max=3)
 
-# Prueba B: Exploración profunda (El oxígeno es suficiente para llegar a 'Q')
-gestor_de_expedicion(complejo_piramidal, 'A', 'Q', rango_max=5)
+# Prueba B: Exploración profunda Objetivo: F
+gestor_de_expedicion(complejo_piramidal, 'A', 'F', rango_max=5)

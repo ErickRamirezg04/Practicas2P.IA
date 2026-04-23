@@ -65,4 +65,4 @@ def localizar_archivo(sistema_archivos, entrada, objetivo):
 
 # --- EJECUCIÓN DEL ESCANEO ---
 print("Iniciando escaneo profundo del sistema...")
-localizar_archivo(directorio_raiz, entrada='A', objetivo='J')
+localizar_archivo(directorio_raiz, entrada='A', objetivo='H')
